@@ -1,0 +1,46 @@
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    display: inline;
+    background-color: grey;
+    border-radius: 3px;
+    padding: 6px 5px;
+    line-height: 40px
+    
+}
+
+.main-cards{
+    max-width: 1500px;
+    margin: 50px auto; 
+    
+}
+
+.cards-head{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: relative;  
+}
+
+.info-cards{
+    background-color: grey;
+    bottom: 0;
+    position: absolute
+    
+
+    
+}
+
